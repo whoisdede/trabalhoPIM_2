@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from skimage.feature import canny
 from skimage.metrics import structural_similarity as ssim
-
+#teste
+#falta conferir certinho
 def convolucao2d(imagem: np.ndarray, kernel: np.ndarray) -> np.ndarray:
     """
     Realiza a convolução 2D de uma imagem com um kernel de forma manual (sem scipy/cv2).
